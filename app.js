@@ -138,7 +138,12 @@ function filteredRecords() {
 function cardTemplate(record) {
   const kind = deadlineState(record);
   const level = verificationLevel(record.verification);
-  const applyUrl = /^https?:\/\//.test(record.applyUrl) ? record.applyUrl : "#";
+  const hasOfficialApplyUrl = /^https?:\/\//.test(record.applyUrl);
+  const applyAction = hasOfficialApplyUrl
+    ? `<a class="apply-button" href="${escapeHtml(record.applyUrl)}" target="_blank" rel="noopener noreferrer">
+        立即投递 <span aria-hidden="true">↗</span>
+      </a>`
+    : `<span class="apply-button is-disabled" aria-disabled="true">官方入口待核验</span>`;
   const sourceUrl = /^https?:\/\//.test(record.sourceUrl) ? record.sourceUrl : "#";
   return `
     <article class="job-card ${kind === "urgent" ? "is-urgent" : ""} ${kind === "closed" ? "is-expired" : ""}">
@@ -170,9 +175,7 @@ function cardTemplate(record) {
             <span class="level level-${level.toLowerCase()}">${level}</span>
             <span>${escapeHtml(record.verification)}</span>
           </span>
-          <a class="apply-button" href="${escapeHtml(applyUrl)}" target="_blank" rel="noopener noreferrer">
-            立即投递 <span aria-hidden="true">↗</span>
-          </a>
+          ${applyAction}
         </div>
       </div>
       <details class="details">

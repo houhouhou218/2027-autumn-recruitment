@@ -97,6 +97,7 @@ select:focus, input:focus { outline: 2px solid #65b6a8; outline-offset: 1px; }
 .verification span:last-child { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .apply-button { display: inline-flex; align-items: center; gap: 7px; min-height: 38px; padding: 0 13px; border-radius: 6px; background: var(--teal); color: white; text-decoration: none; font-size: 12px; font-weight: 800; white-space: nowrap; }
 .apply-button:hover { background: #006c5a; }
+.apply-button.is-disabled { background: #e6ebee; color: #667782; cursor: not-allowed; }
 
 .details { border-top: 1px solid var(--line); }
 .details summary { list-style: none; display: flex; justify-content: space-between; align-items: center; padding: 11px 16px; color: var(--muted); font-size: 12px; font-weight: 700; cursor: pointer; }
