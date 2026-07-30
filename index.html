@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#102a43">
+  <link rel="manifest" href="manifest.webmanifest">
+  <title>2027届秋招追踪</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="app-header">
+    <div class="header-inner">
+      <div class="brand">
+        <canvas id="brandMark" width="88" height="88" aria-hidden="true"></canvas>
+        <div>
+          <p class="brand-kicker">2027 CAMPUS RECRUITMENT</p>
+          <h1>秋招投递追踪</h1>
+        </div>
+      </div>
+      <a class="excel-link" href="2027届秋招投递信息_2026-07-24.xlsx" download>
+        <span aria-hidden="true">↓</span> Excel
+      </a>
+    </div>
+  </header>
+
+  <main>
+    <section class="summary-band" aria-label="数据概览">
+      <div class="summary-inner">
+        <div class="summary-item">
+          <span class="summary-label">开放项目</span>
+          <strong id="totalCount">--</strong>
+        </div>
+        <div class="summary-item">
+          <span class="summary-label">7天内截止</span>
+          <strong id="urgentCount">--</strong>
+        </div>
+        <div class="summary-item">
+          <span class="summary-label">A等级核验</span>
+          <strong id="verifiedCount">--</strong>
+        </div>
+        <div class="summary-item updated-item">
+          <span class="summary-label">最近更新</span>
+          <strong id="updatedAt">--</strong>
+        </div>
+      </div>
+    </section>
+
+    <section class="workspace">
+      <aside class="filters" aria-label="筛选条件">
+        <div class="filter-heading">
+          <h2>筛选</h2>
+          <button id="resetFilters" class="text-button" type="button">重置</button>
+        </div>
+
+        <label class="field-label" for="industryFilter">行业</label>
+        <select id="industryFilter">
+          <option value="">全部行业</option>
+        </select>
+
+        <label class="field-label" for="locationFilter">工作地点</label>
+        <select id="locationFilter">
+          <option value="">全部地点</option>
+        </select>
+
+        <label class="field-label" for="typeFilter">招聘类型</label>
+        <select id="typeFilter">
+          <option value="">全部类型</option>
+          <option value="提前批">提前批</option>
+          <option value="正式批">正式批</option>
+          <option value="实习">实习/转正</option>
+          <option value="专项">专项计划</option>
+        </select>
+
+        <label class="field-label" for="sortSelect">排序</label>
+        <select id="sortSelect">
+          <option value="open-desc">最新开放</option>
+          <option value="deadline-asc">截止时间</option>
+          <option value="company-asc">企业名称</option>
+        </select>
+
+        <div class="verification-note">
+          <span class="level level-a">A</span>
+          <p>官网、官方招聘页或官方公告已核验</p>
+        </div>
+        <div class="verification-note">
+          <span class="level level-b">B</span>
+          <p>高校就业网或可信招聘平台转载</p>
+        </div>
+        <div class="verification-note">
+          <span class="level level-c">C</span>
+          <p>公开汇总，投递前需官网复核</p>
+        </div>
+      </aside>
+
+      <div class="results-area">
+        <div class="search-row">
+          <label class="search-box" for="searchInput">
+            <span aria-hidden="true">⌕</span>
+            <input id="searchInput" type="search" placeholder="搜索企业、岗位、城市" autocomplete="off">
+          </label>
+          <button id="mobileFilterToggle" class="filter-toggle" type="button" aria-expanded="false">
+            筛选 <span aria-hidden="true">≡</span>
+          </button>
+        </div>
+
+        <div class="segmented" aria-label="快捷筛选">
+          <button type="button" data-quick="all" class="is-active">全部</button>
+          <button type="button" data-quick="urgent">7天内截止</button>
+          <button type="button" data-quick="verified">A等级</button>
+          <button type="button" data-quick="no-test">免笔试</button>
+        </div>
+
+        <div class="result-toolbar">
+          <p><strong id="resultCount">--</strong> 个项目</p>
+          <span id="activeFilterLabel">全部开放项目</span>
+        </div>
+
+        <div id="results" class="results-list" aria-live="polite"></div>
+        <div id="emptyState" class="empty-state" hidden>
+          <strong>没有匹配项目</strong>
+          <button id="emptyReset" type="button">清除筛选</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>投递状态、岗位与笔试安排以企业招聘官网为准。</p>
+  </footer>
+
+  <script src="app.js" defer></script>
+</body>
+</html>

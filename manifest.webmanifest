@@ -1,0 +1,9 @@
+{
+  "name": "2027届秋招投递追踪",
+  "short_name": "秋招追踪",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#f4f7f9",
+  "theme_color": "#102a43",
+  "lang": "zh-CN"
+}
