@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-03",
+  "updatedAt": "2026-08-04",
   "title": "2027届秋招投递信息",
   "records": [
     {
@@ -41,7 +41,7 @@
       "verifiedDate": "2026-08-03"
     },
     {
-      "openDate": "不晚于2026-07-30",
+      "openDate": "2026-08-01",
       "company": "影石Insta360",
       "industry": "消费电子/智能影像",
       "nature": "民营/上市",
@@ -51,13 +51,13 @@
       "roles": "软件、算法、硬件、产品、设计、营销及职能岗位",
       "applyUrl": "https://www.insta360.com/cn/jobs",
       "deadline": "2026-10-31",
-      "writtenTest": "官方未说明",
-      "status": "本轮新确认；企业官方招聘页已核验",
+      "writtenTest": "非免笔试（官方日程含8-11月笔面试）",
+      "status": "官方公众号文章与企业招聘页已交叉核验",
       "priority": "P2-正常关注",
-      "notes": "岗位城市和具体职位以影石Insta360官方招聘页为准；公开信息标注10月31日，投递前再次确认职位状态。",
+      "notes": "南大就业公众号文章发布于2026-08-01，面向2027届毕业生（毕业时间为2026年9月至2027年8月），工作地点为深圳、上海、珠海；简历投递截止2026-10-31 19:00，8-11月安排笔面试、10月起沟通Offer。岗位城市和具体职位以影石Insta360官方招聘页为准。",
       "sourceUrl": "https://www.insta360.com/cn/jobs",
-      "verification": "A-企业官方招聘页已核验",
-      "verifiedDate": "2026-07-31"
+      "verification": "A-企业官方招聘页与官方公众号文章交叉核验",
+      "verifiedDate": "2026-08-04"
     },
     {
       "openDate": "不晚于2026-07-30",
@@ -229,6 +229,25 @@
       "sourceUrl": "http://www.cofco-capital.com/join_us.html",
       "verification": "A-企业官方招聘页已核验",
       "verifiedDate": "2026-07-31"
+    },
+    {
+      "openDate": "2026-07-28",
+      "company": "搜狐畅游",
+      "industry": "游戏/互联网",
+      "nature": "民营/互联网",
+      "location": "以岗位页面为准",
+      "recruitmentType": "提前批/校园招聘",
+      "audience": "2027届毕业生（部分岗位兼收2026届）",
+      "roles": "游戏策划、游戏开发、游戏美术、游戏运营、业务支持、平台开发、平台职能、游戏测试8大类岗位",
+      "applyUrl": "https://app.mokahr.com/m/campus_apply/cyou-inc/42233?recommendCode=DSRgNQU7#/jobs",
+      "deadline": "未公布/招满即止",
+      "writtenTest": "非免笔试；提前批未录取可参加后续统一笔试",
+      "status": "可信高校就业网公告显示开放；官方投递入口已核验",
+      "priority": "P1-招满即止/截止未公布",
+      "notes": "深圳北理莫斯科大学就业网公告《搜狐畅游2027届秋季校园招聘提前批正式启动！》发布于2026-07-28；提前批流程快、部分岗位有直通面试机会，未被录取者可参与后续统一笔试，部分热招岗位招满即停。",
+      "sourceUrl": "https://career.smbu.edu.cn/detail/online?id=3535355",
+      "verification": "B-可信高校就业网公告含官方投递链接",
+      "verifiedDate": "2026-08-04"
     },
     {
       "openDate": "2026-07-28",
