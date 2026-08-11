@@ -71,8 +71,8 @@ function dayDifference(deadline) {
 
 function deadlineState(record) {
   const diff = dayDifference(record.deadline);
-  const status = `${record.status} ${record.priority}`;
-  if (/已截止|关闭/.test(status) || (diff !== null && diff < 0)) return "closed";
+  const status = String(record.status || "");
+  if (/已截止/.test(status) || (diff !== null && diff < 0)) return "closed";
   if (diff !== null && diff <= 7) return "urgent";
   if (diff !== null && diff <= 30) return "soon";
   return "normal";
