@@ -267,7 +267,7 @@ function bindEvents() {
 
 async function init() {
   drawBrandMark();
-  const response = await fetch("data.json");
+  const response = await fetch("data.json", { cache: "no-store" });
   if (!response.ok) throw new Error("无法读取招聘数据");
   const data = await response.json();
   state.records = data.records;
