@@ -1,7 +1,45 @@
 {
-  "updatedAt": "2026-08-10",
+  "updatedAt": "2026-08-11",
   "title": "2027届秋招投递信息",
   "records": [
+    {
+      "openDate": "2026-08-05",
+      "company": "温氏股份-2027届校园招聘",
+      "industry": "农牧/食品",
+      "nature": "民营/上市",
+      "location": "全国20多个省（市、自治区），以岗位页面为准",
+      "recruitmentType": "正式批/校园招聘",
+      "audience": "2027届高校毕业生，具体学历、专业要求以岗位页面为准",
+      "roles": "养殖技术、食品与生产、机电设备、市场营销、研发及综合职能等集团校招岗位",
+      "applyUrl": "https://mp.weixin.qq.com/s/4r82YEfMv3ADYDAili-30w",
+      "deadline": "未公布/以各岗位为准",
+      "writtenTest": "官方未统一说明",
+      "status": "本轮新增；温氏股份招聘官方公众号已发布2027届校园招聘启动公告",
+      "priority": "P1-截止未公布/岗位动态关闭",
+      "notes": "官方公众号文章发布于2026-08-05；电脑端可从温氏股份官网“人才招聘-校园招聘”进入，移动端可关注“温氏股份招聘”并选择“加入温氏-校园招聘”。岗位可能分批开放，投递前确认单位、城市和岗位状态。",
+      "sourceUrl": "https://mp.weixin.qq.com/s/4r82YEfMv3ADYDAili-30w",
+      "verification": "A-温氏股份招聘官方公众号与集团官网校园招聘入口已核验",
+      "verifiedDate": "2026-08-11"
+    },
+    {
+      "openDate": "2026-08-01",
+      "company": "中国人民保险集团-2027届统筹校园招聘",
+      "industry": "保险/金融",
+      "nature": "中央金融企业/国有",
+      "location": "全国",
+      "recruitmentType": "正式批/集团统筹校园招聘",
+      "audience": "海内外2027届应届高校毕业生",
+      "roles": "集团本级及8家成员公司岗位，涵盖保险、投资、科技、精算、信托、再保险及综合职能等",
+      "applyUrl": "https://picc.zhiye.com",
+      "deadline": "2027-04-25（集团本级约2026年10月中旬截止；各单位总部及部分省级机构约2026年11月中下旬截止）",
+      "writtenTest": "否（分批次开展笔试，部分岗位设置差异化笔试）",
+      "status": "本轮新增；高校就业网公告来源为中国人民保险集团，官方招聘海报及官网入口已核验",
+      "priority": "P2-分机构截止",
+      "notes": "招聘覆盖集团本级及8家成员公司；每人最多可投2个志愿，同一机构限投1个岗位。总通道关闭时间较晚，但各机构有更早截止时间，应按目标单位页面尽早投递。",
+      "sourceUrl": "https://career.smbu.edu.cn/detail/online?id=3537075",
+      "verification": "A-官方招聘海报与中国人民保险招聘官网入口已核验",
+      "verifiedDate": "2026-08-11"
+    },
     {
       "openDate": "2026-08-08",
       "company": "去哪儿旅行-2027校园招聘",
@@ -1672,7 +1710,7 @@
       "notes": "最多同时申请3个岗位。",
       "sourceUrl": "https://baijiahao.baidu.com/s?id=1871311310412318517&wfr=spider&for=pc",
       "verification": "A-官方来源公告已核验",
-      "verifiedDate": "2026-07-24"
+      "verifiedDate": "2026-08-11"
     },
     {
       "openDate": "2026-07-10",
@@ -1805,7 +1843,7 @@
       "notes": "毕业时间须为2026年9月-2027年8月；投递时选择提前批。",
       "sourceUrl": "https://baijiahao.baidu.com/s?id=1871311310412318517&wfr=spider&for=pc",
       "verification": "A-国家大学生就业平台公告已核验",
-      "verifiedDate": "2026-07-24"
+      "verifiedDate": "2026-08-11"
     },
     {
       "openDate": "2026-06-30",
